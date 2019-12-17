@@ -3,4 +3,6 @@ class Shoe
   def initialize (brand = "Adidas")
     @brand = "#{brand}"
   end
+  def cobble
+    puts
 end
