@@ -1,6 +1,6 @@
 class Shoe
   attr_accessor :shoe_brand, :color, :size, :material, :condition
-  def intialize
-    @brand = brand
+  def intialize (brand = "Adidas")
+    @brand = "#{brand}"
   end
 end
